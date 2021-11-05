@@ -1,0 +1,61 @@
+WorkSpaces
+
+    Pega Platform studios
+
+        Là một môi trường cung cấp các công cụ và các tính năng cụ thể
+        Bằng cách sử dụng các WorkSpaces khác nhau để phát triển và quản lý ứng dụng của mình
+        Pega cung cấp 4 WorkSpaces dựa trên vai trò
+
+            - App Studio
+
+                WorkSpace này cung cấp tính năng cốt lõi để phát triển ứng dụng
+                Chẳng hạn như thiết kế Case, quản lý data, và trải nghiệm người dùng
+                Người dùng điển hình bao gồm nhà app dev, FE dev, data engineers hoặc BA
+                
+            - Dev Studio
+
+                WorkSpace này cung cấp tính năng nâng cao để dev App
+                Người dùng điển hình là full stack dev, database admin, security admin
+
+            - Prediction Studio
+
+                WorkSpace này cung cấp tính năng cho các nhà khoa học dữ liệu để xây dựng machine-learning
+                machine-learning này phân tích văn bản, dự đoán và thích ứng
+
+            - Admin Studio
+
+                WorkSpace này cung cấp thông tin run-time và các tùy chọn cấu hình để giám sát và gỡ lỗi
+                Người dùng là quản trị viên của hệ thống
+
+        Mỗi studio đều tăng tốc độ phát triển của ứng dụng và năng cao năng suất bằng cách cung cấp
+        chức năng dựa trên vai trò của người dùng
+
+
+    Studio navigation
+
+        Mỗi studio bao gồm 3 khu vực
+            A header
+
+                Chứa nhiều menu hoặc tools khác nhau, tùy thuộc vào studio nào đang hoạt động
+                Ở phía bên phải app studio bạn có thể nhấp vào biểu tượng thích hợp để truy cập PegaAgileWorkbench
+                Một công cụ cho phép bạn nắm bắt phản hồi theo thời gian thực về ứng dụng của mình và theo dõi sự
+                phát triển của tính năng
+
+            A navigation panel
+
+                Cho phép bạn truy cập các phần khác nhau của App thông qua trình khám phá
+
+            A WorkSpace
+
+                Dùng để cấu hình hành vi của App
+                Sử dụng trang này để tìm và giám sát các thành phần chính trong app của Bạn
+                Nhằm giúp bạn quyết định cách bạn muốn phân bố các nguồn lực phát triển của mình
+
+Which three authoring workspaces are found in Pega Platform?
+
+    1. App Studio
+    2. Dev Studio
+    3. Admin Studio
+
+
+
