@@ -1,0 +1,15 @@
+Tích hợp với các ứng dụng bên ngoài
+
+    Bạn có thể thiết kế các ứng dụng liên kết nhiều tài nguyên được phân phối vật lý
+
+    Pega cung cấp một loạt dữ liệu và khả năng tích hợp toàn diện giúp đơn giản hóa
+    nhiệm vụ kết nối ứng dụng của bạn với các tài nguyên được phân phối và có đc quyền
+    truy cập vào các quá trình và dữ liệu mà chúng cung cấp
+
+    Pega hỗ trợ 1 loạt các tiêu chuẩn tích hợp và giao thức truyền thông
+    Cho phép bạn tập trung vào việc giải quyết các yêu cầu kinh doanh hơn là sự phát triển kết nối
+
+    Tuy nhiên nhiều hệ thống không được thiết kế để chia sẻ dữ liệu với các ứng dụng khác
+    Các hệ thống này k có API, hoặc có mà không thể truy cập được
+    Trong những tình huống này bạn có thể sự dụng RPA khi k có tùy chọn nào khác
+    
