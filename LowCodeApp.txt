@@ -1,0 +1,20 @@
+1. Giá trị của low code
+
+	Thu hẹp khoảng cách giữa các bên liên quan
+	Tạo 1 ngôn ngữ chung để cộng tác hiệu quả hơn
+	Các team làm việc với lowcode sẽ nhanh nhẹn hơn, tạo ra sản phẩm nhanh hơn
+	Tập trung giải thích nghiệp vụ hơn là đi giải thích các đoạn code
+	Các phản hồi sẽ được giảm bớt, các team làm việc năng suất hơn, giải phóng nhân lực để giải quyết bài toán tồn đọng
+
+2. Building with low-code tools
+
+	Low-code của pega cho phép xây dựng 1 ứng dụng thu thập dữ liệu hoặc khởi tạo quy trình kinh doanh
+	Ứng dụng đó có thể là web, mobile app, hoặc 1 chat bot
+	Thông tin có thể trích xuất từ 1 email đến 1 robot
+	THông qua giao diện trực quan , pega cho phép người dùng tích hợp các hệ thống này
+
+3. Low-code and developers
+
+	Giúp mọi người làm việc hiệu quả hơn
+	Cho phép người k biết code có thể tạo ra sản phẩm
+	Hoặc là người biết code thì sẽ tạo ra sản phẩm 1 cách nhanh chóng hơn
