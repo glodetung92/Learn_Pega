@@ -1,0 +1,52 @@
+Case Life cycle
+    Case Type là gì
+
+        Là một mô hình trừu tượng đại diện cho giao dịch kinh doanh
+        Sử dụng case type có thể lặp lại các business transaction
+    
+    Case
+        Đại diện cho các trường hợp giao dịch riêng lẻ
+
+
+
+
+    --------------------------------------------------------------------------------------------------------
+    Các khối chủ yếu của case life là Stage, Process, step
+
+    1. Stage
+        Khi thiết kế vòng đời của Case, bắt đầu bằng cách sắp sếp công việc của bạn thành nhiều giai đoạn
+
+        Ví dụ 1 đơn hàng trực tuyến liên quan đến 3 nhóm khác nhau
+            - Đặt hàng
+            - Nhân viên xử lý đơn hàng
+            - Nhân viên giao hàng
+
+    => có 3 giai đoạn : đặt hàng, xử lý giao hàng
+    Submisssion => Processing => Delivery
+    PlaceOrder     ProcessOrder  Ship Items    
+
+    2. Process
+
+    Bao gồm các bước của người quản lý case
+    Mỗi Stage có thể chứa 1 hoặc nhiều Process
+    
+    3. Step
+    Là các hành động của người dùng trong 1 Process
+    hoặc là các hành động được thực hiện bởi 1 ứng dụng
+    Các bước mà hệ thống thực hiện đc gọi là tự động hóa
+
+    --------------------------------------------------------------------------------------------------------
+
+Quy tắc đặt tên: 
+    Đề xuất tên Stage
+        Case này thì nằm ở stage nào
+        Case này khi nào chuyển sang stage nào
+        Có bao nhiêu case nằm trong stage nào
+
+test:
+1. mô hình trừu tượng hóa business transaction là case type
+    Case thì biểu thị công việc mang lại kết quả có ý nghĩa
+2. stage là level đầu tiên sắp xếp công việc trong case
+3. Ở Process, đc bao gồm 1 loạt stage hoặc task
+4. Step là các task và các hoạt động run của user hoặc system
+

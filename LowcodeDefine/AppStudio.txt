@@ -1,0 +1,54 @@
+APP STUDIO
+
+    Cung cấp các tính năng cốt lõi để phát triển ứng dụng 
+    Chả hạn như: 
+            - Case design
+            - data management
+            - user experience
+
+    Được thiết kế ra cho Low code user
+
+    Người dùng điển hình:
+        - App dev
+        - FE dev
+        - Data engineer
+        - BA
+    App Studio được sử dụng để vận hành app của bạn 1 cách nhanh hơn
+
+    Giúp bạn hình dung các yếu tố chính của quy trình kinh doanh mong muôns
+
+    Khi phác thảo quy trình , bạn có thể phác thảo mối quan hệ giữa các giai đoạn của quy trình
+
+    Bản nháp này đóng vai trò như 1 kế hoạch phát triển , giúp b quản lý khối lượng công việc của team
+
+    ---------------------------------------------------------------------------------------------------------
+
+    Support for agile development
+
+    Hỗ trợ và kết hợp các phương pháp hay nhất về agile development để giúp bạn lập kế hoạch
+    và triển khai các khả năng cho ứng dụng của mình
+
+    Trong App Studio bạn có thể xây dựng nhanh chóng 1 case business bởi developing
+
+    App Studio cũng hỗ trợ thiết kế UI theo run-time
+
+
+    -----------------------------------------------------------------------------------------------------------
+    Modular application design
+
+
+
+
+    -----------------------------------------------------------------------------------------------------------
+    Thận trọng
+
+    App layers chỉ trình bày bản tóm tắt cấp cao về nội dung của các lớp ứng dụng của bạn
+
+    Vì lí do này dữ liệu đc cung cấp không được coi là kho lưu trữ cuối cùng của ứng dụng của bạn
+
+
+
+    Mỗi Layer là một ứng dụng độc nhất và được xây dựng trên 1 hoặc nhiều layers, ngoại trừ lớp nền tảng pega
+
+    
+

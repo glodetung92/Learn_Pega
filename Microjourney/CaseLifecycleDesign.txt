@@ -1,0 +1,46 @@
+Pega platform sẽ hỗ trợ việc cài đặt và nhiều loại stage, process, step để đáp ứng
+nhu cầu đặc biệt và nghiệp vụ phức tạp
+
+    *Onboarding case life cycle
+
+    Create stage
+        khởi chạy đàu tiên
+        Hiển thị bởi thanh bar màu xanh lá cây
+        Bao gồm process và step để user nhập dữ liệu ban đầu khi tạo case
+        Không thể xóa hoặc thay đổi vị tri của case life cycle
+        Trước version 8.5 thì chưa có. Nó dùng để phân bổ case ID
+
+    ----------------------------------------------------------------------------
+    primary stage
+        Là stage nhận thành quả mong đợi
+        Trong vòng đời case , con đường case đi không bị lệch khỏi primary stage dc gọi là primary path
+
+        「Pre-arrival Setup」、「Setup」、「Verification」 được gọi là primary stage
+    
+    ----------------------------------------------------------------------------
+
+    「Resolution」stage
+        Có thanh bar màu đỏ
+        là stage cuối cùng trong vòng đời case
+        Trường hợp định nghĩa 1 path khác của business process, có thể bao gồm nhiều cách giải quyết cho 1 case type
+        Trong OnboardingCase có 2 stage giải quyết đó là Vertification và Approval rejection
+
+    ----------------------------------------------------------------------------
+    Create process
+        MẶc định thì create stage sẽ bao gồm create process
+        có thể thay đổi tùy thuộc vào business cần thiết
+        Ở create process step thì việc lấy dữ liệu đầu vào là cần thiết
+
+        Việc thiết lập chanels bằng application, có thể thêm create process của chanel cụ thể
+        Có thể cài đặt với điều kiện khi bắt đầu
+        Ví dụ khi cài đặt chanel cho điện thoại, process có thể đc cài đặt cho việc sử dụng mobile
+
+    ----------------------------------------------------------------------------
+    「Collect information」step
+        Là step mà cần sự thao tác của user
+        Nó đc hiển thị với icon màu xanh lá
+        Create process chưa đc lưu vào chanel chỉ có thể chứa các thông tin
+    
+    ----------------------------------------------------------------------------
+    quá trình song hành
+    

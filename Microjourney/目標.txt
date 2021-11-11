@@ -1,0 +1,5 @@
+1. Yếu tố cấu thành Case Life cycle là stage, process và step
+
+2. Hiểu rõ sự khác nhau giữa primary stage và Alternate stage
+
+3. Mô hình hóa life cycle của case type

@@ -1,0 +1,25 @@
+1. Pega express
+    Tập trung vào việc thực hiện 1 mục tiêu tại 1 thời điểm hơn là phát triển toàn bộ hành trình
+    của khách hàng ngay từ đầu
+
+    Để định nghĩa 1 MLP, chúng ta tập trung vào 3 yếu tố cốt lõi
+
+        Microjourney -> personal and chanel -> data and interface
+
+2. Microjourney
+    Là 1 phần nhỏ trong quá trình tổng thể của khách hàng
+    và tập trung vào việc hoàn thành mục tiêu đặc biệt
+
+3. Personas and channels
+    Personas quyết định ai là người tương tác với app
+    chanels quyết định việc cá nhân đó tương tác như thế nào với app
+
+4. Data and Interfaces
+
+    Data là thông tin mà Microjourney tương tác để hoàn thành mục tiêu của khách hàng
+    Interfaces định nghĩa thông tin đến từ đâu hoặc được định nghĩa ở đâu
+
+    1 application có thể tương tác với nhiều data và 1 data thì có thể sử dụng nhiều giao diện
+
+5. Microjourney Configuration
+    Bạn có thể cấu hình Microjourney trong Case design của app Studio
