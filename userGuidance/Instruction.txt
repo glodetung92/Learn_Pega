@@ -1,0 +1,5 @@
+Không thể thêm instruction vào stage
+Không thể thêm instruction vào Process
+
+STAGE -> n PROCESS -> n STEP
+set case status là set trong step đầu tiên của 1 process

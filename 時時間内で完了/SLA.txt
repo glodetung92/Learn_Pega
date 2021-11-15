@@ -1,0 +1,52 @@
+Service level agreement
+    Thỏa thuận mức dịch vụ
+
+* Service level interval
+    Mỗi SLA tương ứng với 1 số khoảng thời gian cần thiết để thực hiện 1 nhiệm vụ
+hoặc giải quyết 1 trường hợp
+
+    START: 0 (Là thời gian bắt đầu step, process, stage, case)
+    GOAL: Mục tiêu của thời gian làm việc
+    DEADLINE: Là thời gian mà phải hoàn thành trước kỳ hạn
+
+SLA Type:
+    Case Level SLA: Trường hợp Case type đặt là SLA
+    timing of service level bắt đầu khi case đc tạo thành(hoặc bắt đầu lại)
+    Nó kết thúc khi Case kết thúc
+    ------------------------------------------------------------------------
+    Stage Level SLA: Nếu SLA đc định nghĩa trên Stage
+    timing of service level bắt đàu khi case vào stage
+    sẽ kết thúc khi case rời khỏi stage
+    ------------------------------------------------------------------------
+    Process level SLA: Bắt đầu khi Process đc gọi
+    Kết thúc khi step cuối cùng của process kết thúc
+    ------------------------------------------------------------------------
+    Assignment level SLA: Bắt đầu khi nhiệm vụ đc tạo
+    và kết thúc khi nhiệm vụ kết thúc
+    ------------------------------------------------------------------------
+    Approval Level SLA: Bắt đầu khi phê duyệt đc gọi
+    kết thúc sau khi quá trình phê duyệt hoàn tất
+    ------------------------------------------------------------------------
+    
+* Khẩn cấp:
+Mức độ khẩn cấp là một con số hình dung công việc chưa hoàn thành của một ứng dụng
+Mức độ khẩn cấp mặc định là 10
+Đối với mỗi khoảng thời gian , hãy xác định giá trị từ 10-100
+Mức độ khẩn cấp tối đa là 100
+Giá trị càng cao thì tính cấp thiết càng cao
+
+
+* Độ ưu tiên của Assignment:
+
+Trong ứng dụng PEGA, tính cấp thiết của 1 nhiệm vụ cho biết mức độ ưu tiên của nhiệm vụ
+
+
+Trong số nhiều nhiệm vụ mà người dùng có thể thực hiện "Get Next Work" ưu tiên cho nhiệm
+vụ có số lượng khẩn cấp cao nhất
+
+* Escalation Action
+Là hành động mà ứng dụng của bạn thực hiện để giảm thời gian hoàn thành dựa trên SLA
+chỉ định
+Bạn có thể cấu hình nó trong các thỏa thuận cấp độ dịch vụ để thông báo cho người đc
+giao , người quản lý, người tham gia, phân công nhiệm vụ hoặc kết thúc case khi có
+mục tiêu hoặc thời hạn

@@ -1,0 +1,12 @@
+Mặc định thì khi create xong case type thì toàn bộ quá trình sẽ đc lưu vào 1 bản draft
+Draft model này, cho dù là chưa hoàn thành cũng có thể chạy casetype 1 cách nhanh chóng 
+và xác nhận việc runtime 
+VD: cũng có trường hợp trình kết nối bỏ qua luồng flow vì chưa định nghĩa step view
+
+Draft model trong appstudio có thể hiển thị list error của casetype 
+
+DEV STUDIO thì chỉ có thể tắt draft model bằng thủ công
+APP STUDIO thì tự động tắt khi kết thúc case type
+
+Tại APP STUDIO trường hợp save case type, pega platform sẽ  tự động tắt draft model cho process không có lỗi
+

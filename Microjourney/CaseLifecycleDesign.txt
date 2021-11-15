@@ -42,5 +42,51 @@ nhu cầu đặc biệt và nghiệp vụ phức tạp
         Create process chưa đc lưu vào chanel chỉ có thể chứa các thông tin
     
     ----------------------------------------------------------------------------
-    quá trình song hành
+    quá trình chuyển tiếp stage
+
+        Khi thiết kế case life cycle hãy xem xét cách stage chuyển từ cái này sang cái khác
+
+        Cài đặt sự thay đổi của stage, thực hiện tại properties pane
+
+        * Khi hoàn thành tất cả step của primary stage, mặc định case sẽ tự động chi chuyển đến 
+        primary stage tiếp theo
+
+        * Khi user hoàn thành tất cả process tại 1 stage, stage tiếp theo sẽ được bắt đầu
+        Lựa chọn này thì orutane-to stage không được sử dụng
+
+        * Các option di chuyển stage khác là việc chờ đợi hành động của người dùng và hoàn thành các case
+        ----------------------------------------------------------------------------
+        {Wait for a user action} Khi hoàn thành tất cả process của stage
+        Case Work sẽ nhận giá trị hoàn thành stage
+
+        {Resolve the case} Khi hoàn thành tất cả process của stage, Case sẽ tự động được giải quyết
+        Hoặc khi lựa chọn {Resolve the case}, thanh bar của stage đấy sẽ chuyển sang màu đỏ
+
+        2 Loại option này là primary stage và orutaneto stage
+        Và có thể sử dụng được cả 2 loại này
+
+        primary stage    {Wait for a user action, Resolve the case}
+        orutane-to stage {Wait for a user action, Resolve the case}
+
+
+        ***
+        *   Create stage thì không thể thiết lập di chuyển stage
+        ***
+
+        orutane-to stage cũng có trường hợp là step ném case quay trở về primary path
+
+        Các path khác cũng có thể biểu diễn orutaneto stage
+        Có thể mô hình hóa việc xác nhận nợ bằng primary stage
+
+        ----------------------------------------------------------------------------
+       
+        Q: マルチステップフォームを設定する時、どこでナビゲーションテンプレートを特定できますか。
+        A: ナビゲーションテンプレートは、ケースデザイナーのマルチステップフォームプロセスを選ぶと、アクセス可能になります。
+
+
+
+
+
+
+
     

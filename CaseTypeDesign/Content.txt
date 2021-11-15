@@ -1,0 +1,5 @@
+MLP1: người dân sẽ tạo request service lên user portal
+    coordinator(điều phối viên) sẽ xác nhận request
+    coordinator and manager sẽ giải quyết request
+
+MLP2: Cung cấp các cuộc trao đổi và tương tác qua mobile chanel

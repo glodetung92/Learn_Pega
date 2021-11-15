@@ -1,0 +1,9 @@
+Hướng dẫn user thông qua life case
+Bằng cách thêm instruction giúp người dùng có thể hoàn thành các task đc phân công
+hoặc xác nhận status của case hiện tại
+
+Mục tiêu của bài học:
+    1. Làm sáng tỏ nhiệm vụ của case status trong quá trình xử lý case
+    2. Chỉ định sự thay đổi của status trong những trường hợp nào đó trong quá trình xử lý case
+    3. Chỉ định vai trò của chỉ thị trong khi phân công task cho user
+    4. Thêm hướng dẫn (chỉ thị) về task được phân công

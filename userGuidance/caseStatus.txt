@@ -1,0 +1,23 @@
+VD: đặt hàng qua app shoping online
+Nhưng bản hướng dẫn cho khách hàng chưa đủ
+Khi không có trạng thái mua hàng, khó khăn trong việc tìm thông tin mua hàng thông qua tất cả
+quá trình
+
+--------------------------------------------------------------------------------
+Case status hiển thị tình trạng của case cho đến lúc hoàn thành
+Có thể cài đặt cho dù case lifecycle đang ở stage hay là step
+
+* Trong PEGA platform các case status tiêu chuẩn là
+    - Open
+    - Pending-Approval
+    - Resolved-completed
+Và có thể thêm tùy chọn status là
+    - Pending-Processing
+    - Pending-Shipping
+    - Order-Shipped
+--------------------------------------------------------------------------------
+Trường hợp cấu hình case status của stage:
+
+    Case status là giá trị được định nghĩa tại stage
+    được thay đổi 1 cách tự động bởi pega platform và chuyển sang stage đó
+    

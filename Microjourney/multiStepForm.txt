@@ -1,0 +1,21 @@
+MULTI STEP FORM
+    - Một người dùng sẽ xử lý 1 nhiệm vụ
+    - Đây là 1 quy trình làm việc tuyến tính có hướng dẫn hoạt động trên
+    nhiều màn hình giao diện người dùng có liên quan
+
+    - Quá trình tạo ra create stage thì đc gọi là multi step FORM
+    - Cái multi step form này thì mặc định hiển thị bằng modal
+
+    - cài đặt multi step form này để đơn giản hóa quá trình phức tạp 
+    VD: Thay vì single form ban đầu mình có thể sử dụng MSF(multistepform)
+    Sẽ chia ra nhiều form phụ thuộc vào loại thông tin
+
+THAO TÁC VỚI MSF
+    MSF đã có sẵn 3 template navigation (dọc, ngang, tiêu chuẩn)
+    Tại navigation dọc và ngang, user sẽ thao tác với màn hình sử dụng menu theo chiều dọc hoặc ngang
+    Còn navigation tiêu chuẩn thì user sẽ thao tác với màn hình và sử dụng nút back hoặc continues
+
+    navigation menu thì có thể đc di chuyển tự ý theo mục đích
+    Khi mà screen chưa đc gửi đi, có thể thay đổi . lưu hoặc nhập thông tin vào
+    Lựa chọn {finish} nó được sử dụng trong screen cuối cùng của MSF
+      
