@@ -1,0 +1,26 @@
+Để xử lý case, pega platform app sẽ sử dụng data object thu thập case data có liên quan
+Data Object nhóm các trường có liên quan, là những template nhằm mục đích thuyết minh về nhưng
+thực thể như là con người hoặc đồ vật
+
+Structure:
+    Khi tạo data object, pega platform sẽ tự dộng tạo data type
+
+    Để lấy và hiển thị những thông tin liên quan đến entity, tên và loại dữ liệu của
+    các trường đang được sử dụng
+    
+    Nhiều loại trường sẽ được tổng hợp đại diện cho 1 object duy nhất
+    Định nghĩa cách cấu tạo nên 1 data object
+
+    Ở Devstudio, người lập trình sẽ sử dụng trực tiếp data type cơ bản, không phải là data object
+    Với kết quả đó, tại dự án và tài liệu, những từ ngữ chuyên dụng như data type và data object
+    có thể không đc phân loại khi sử dụng
+
+    1.Case type Data
+    2.Data Object
+    3.Data type
+
+------------------------------------------------------------------------------------------------
+Kế thừa
+
+Get:
+    

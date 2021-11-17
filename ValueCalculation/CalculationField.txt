@@ -1,0 +1,5 @@
+App studio có 3 loại keisan
+    Hàm số
+    Công thức
+    Decision table
+

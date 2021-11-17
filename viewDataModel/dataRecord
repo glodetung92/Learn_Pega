@@ -1,0 +1,33 @@
+Data Record:
+    Xác định giá trị đầu vào được chấp nhận cho data field
+    Nếu bạn giới hạn giá trị input thành 1 giá trị cho phép, sẽ giảm error và cho phép
+tự động hóa
+
+Hint: Sau khi insert data record vào data object, có thể tham khảo data object tại form
+
+    Về mặc định, data record sẽ đc hiển thị dưới dạng dropdown list mà có thể lựa Chọn
+
+------------------------------------------------------------------------------------------
+Data Record và Data Object
+    Data Object đại diện cho 1 thực thể quan trọng như khách hàng
+    được bao gồm tất cả các trường cần thiết để mô tả đối tượng
+
+    Nói chung khi thay đổi giá trị của data record không cần phải thay đổi mối liên quan trong
+    quá trình business
+------------------------------------------------------------------------------------------
+Local Data Storage
+
+    Có 1 số cách để tạo data record và sử dụng chúng để tham chiếu dữ liệu
+    Khi sử dụng Local data storage, không cần duy trì hoặc tạo table database
+vẫn có thể save record của object
+
+    Mỗi data object có một thuộc tính hoạt động như là 1 unique Key
+    Sau khi tạo Local Data Source thì có thể add record ở đó
+
+------------------------------------------------------------------------------------------
+External Data Source:
+
+Có thể cấu hình data object để lấy dữ liệu từ External data Source(database, web service)
+
+
+

@@ -1,0 +1,46 @@
+Reference field type:
+    (Case reference và Data reference) field type là 1 bản đặc biệt của Query field type
+    Tùy theo định danh hoặc Key,có thể được hiểu hoặc sử dụng để định nghĩa list 
+    (Item có thể đc chọn và Item đc tham chiếu)
+    Người dùng có thể chọn field type của tham số bằng UI
+
+    Referenceフィールドタイプ được sử dụng để đại diện cho việc user có thể lựa chọn list option
+    ------------------------------------------------------------------------------------------
+
+    Data relationship field type
+    1   Embedded data : dữ liệu đầu vào của người dùng lấy dc từ bên trong case type, chẳng hạn
+    như tên hoặc địa chỉ
+    use case: Công ty cần lấy địa chỉ giao hàng
+
+    2   Query: 
+    View hoặc data page không đc lấy từ bên trong case type
+    data page: là parameter đc cấu hình để sử dụng Query data relationship
+
+    3. Case reference:
+    Một hoặc nhiều record của page data đã được Chọn
+    use case: Chọn từ Type của
+     Service case -> service case list 
+
+    4. Data reference:
+        Một hoặc nhiều record của page data đã được Chọn
+        use case: user chọn sản phẩm muốn đặt từ list sản phẩm
+
+    3,4 là trường hợp đặc biệt của Query field type
+    ------------------------------------------------------------------------------------------
+
+    Truy cập vào data đc cung cấp cho người dùng : Embedded Data
+
+    Truy cập vào data được lưu trong data page : Query Data
+
+    Mối quan hệ 1 bản ghi và nhiều bản ghi hoạt động như các vùng chứa cho các trường liên quan
+    mô tả 1 thực thể đơn lẻ hoặc 1 danh sách các thực thể
+
+    ------------------------------------------------------------------------------------------
+    Phân biệt Embedded, Query , Reference:
+
+        
+
+
+
+
+
