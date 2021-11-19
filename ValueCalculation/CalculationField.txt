@@ -3,3 +3,11 @@ App studio có 3 loại keisan
     Công thức
     Decision table
 
+1/ Hàm số:
+    Sum
+    Average(trung bình cộng)
+    MAX
+    MIN
+2/ Công thức:
+
+3/ Decision table:

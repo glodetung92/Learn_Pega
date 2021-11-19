@@ -1,0 +1,25 @@
+Làm thế nào để Assignment routing phân công hiệu quả nhất:
+    Bằng cách phân công công việc cho người phù hợp nhất
+
+----------------------------------------------------------------------
+Routing Type:
+    Khi sử dụng Assignment Routing nó sẽ phân công công việc cho user thích hợp nhất
+    Có thể định tuyến đến user đơn lẻ hoặc là team work
+
+    Work List:  là danh sách tất cả các nhiệm vụ được mở cho 1 người dùng cụ thể,
+    được sắp sếp theo mức độ quan trọng
+
+    Work Queue: là danh sách tất cả các nhiệm vụ chưa đc xử lý , đc sắp xếp theo mức
+    độ quan trọng
+    
+    user được liên kết với work queue có thể chọn đc Assignment hay ko???
+    Assignment vẫn còn nằm trong work queue cho đến khi người quản lý gửi assignment
+    trong work queue cho 1 user cụ thể
+
+    Trong Pega, work group dc gọi là team, operator đc gọi là team member
+----------------------------------------------------------------------
+Routing Option:
+    current user - 
+    specific user -
+    work queue - 
+    

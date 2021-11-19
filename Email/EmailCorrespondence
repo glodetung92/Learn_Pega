@@ -1,0 +1,67 @@
+Giao tiếp với người dùng:
+    Để hiện thực hóa việc giao tiếp 1 cách hiệu quả:
+        1. Cần giao tiếp vs ai
+        2. Phải giao tiếp ntn
+        3. Khi nào thì cần phải gửi thông tin liên lạc
+    
+    Xác định user mà bạn muốn giao tiếp:
+    [誰とコミュニケーションを取る必要がありますか]
+        Sent to(*)
+        Field
+        Customer email
+        => Căn cứ vào giá trị của field trên để gửi email
+    Pega cũng có thể sử dụng 参加者情報 để gửi đến các 関係者のグループ    
+        参加者:
+        Owner (Người tạo case)
+        Customer(Case đc xử lý cho người này)
+        Interested（利害関係者）(Người nắm dc tiến trình của case nhưng k xử lý)
+    
+        Không chỉ có thể chọn 1 người tham gia, còn có thể gửi mail cho tất cả mọi người
+    ---------------------------------------------------------------------------------
+    User Reference
+        correspondence
+        * [Owner参加者を選択すると、ケースを作成したユーザーに連絡が送信されます。]
+
+    ---------------------------------------------------------------------------------
+    Xác định cách tạo liên hệ
+    [コミュニケーションはどのように構成されるか]
+    Pega cung cấp cho trình soạn thảo rich text editor
+    Có thể tái sử dụng data case qua mail
+    Có thể sử dụng template correspondence
+    Pega cung cấp các template có thể sử dụng dc ngay là caseID(.pyID) hoặc case status(.pyStatusWork)
+    --------------------------------------------------------------------------------
+    [いつコミュニケーションを送信する必要があるか]
+        Tự động hóa gửi mail:
+            Qua việc thêm case tự động gửi mail trong pega, có thể đơn giản hóa việc gửi liên lạc
+            Khi case đến bước [Send mail], mail sẽ đc gửi đến người liên quan đã được chọn
+    --------------------------------------------------------------------------------
+    Case level notification:
+        .pyLabel + "(" + .pyID + ") moved to your worklist"
+
+        Onboarding 0-2183 moved to your worklist
+    --------------------------------------------------------------------------------
+    Gửi email thông báo từ Case:
+
+        Một email thông báo rằng một task mới đang chờ xử lý nằm trong work list 
+        Có thể tăng tốc độ hoàn thành quá trình kinh doanh, truyền đạt thông tin đến cho user
+
+        Flow:
+            1. Case type -> chọn case type
+            2. Chọn tab [Setting]
+            3. Chọn mục [notification]
+            4. Sau đó check vào [Email user when assignment is routed to worklist]
+            5. Thêm nội dung mail (tạo mới thì chọn custom, chọn cái có sẵn thì chọn Use existing)
+            6. mục [Subject] : tạo tên tiêu đề bằng cách sử dụng case ID hoặc status case
+                「ケース番号」+ .pyID + 「が割り当てられています」
+            7. Tạo tin nhắn : Click vào [compose]
+            nếu muôn sử dụng lại template cũ thì chọn [Choose template]
+            nếu muốn sử dụng properties thì tại editor chọn insert property
+            8. Save
+
+            Question:
+            ケース内のメッセージ内容を定義すると、ケース参加者が同じ情報を受け取れるようになります。
+
+            メッセージの送信時間を自動化することで、必要に応じてユーザーに情報を送信できます。
+
+
+

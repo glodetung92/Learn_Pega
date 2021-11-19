@@ -1,0 +1,11 @@
+Data Page:
+    Cho biết cách App sẽ sử dụng dữ liệu ntn, định nghĩa data mà có liên quan đến object
+    Đóng vai trò liên kết giữa data record và application
+
+Visual Data Model: 
+    Thể hiện trực quan mối quan hệ giữa data Model của App với thực thể thông qua liên kết này
+
+    Có thể vừa show Visual Data Model vừa thêm sửa xóa field
+    Note: Có thể thay đổi hoặc xác nhận Data Model
+
+Simulation Data Pages:

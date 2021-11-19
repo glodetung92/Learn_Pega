@@ -1,0 +1,17 @@
+Work Approval:
+    1.Case Approval:
+        Là 1 hoặc nhiều người dùng quyết định phê duyệt hay từ chối Case
+        vd: nhân viên gửi request thêm bàn làm việc thông qua app, manager sẽ
+        quyết định approve hoặc reject    
+
+        Approve/Reject(Step):
+    3.routing thông báo:
+        Có thể bằng mail hoặc là mobile
+
+    4.Flow:
+        if (Approved) {
+            =>  Fullfillment
+        } else {
+            => Resolve - Reject
+        }
+
